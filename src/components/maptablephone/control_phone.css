@@ -1,0 +1,110 @@
+.ol-zoom-custom {
+  position: absolute;
+  top: 0.3em;
+  width: 2.5em;
+  height: 5em;
+}
+.ol-zoom-custom button {
+  width: 1.5em;
+  height: 1.5em;
+  font-size: 1.6em;
+}
+.ol-zoom-custom button:nth-child(2) {
+  position: absolute;
+  bottom: 0.2em;
+}
+.ol-mousePosition-custom {
+  bottom: 0.7em;
+  right: 0.7em;
+  position: absolute;
+  color: #eee;
+  text-align: center;
+  font-size: 1.1em;
+  will-change: contents, width;
+  background: #95b9e6;
+  background: rgba(0, 60, 136, 0.3);
+  border-radius: 0.25em;
+  padding: 0.25em;
+}
+.ol-zoomtoextent-custom {
+  position: absolute;
+  top: 8em;
+  width: 2.5em;
+  height: 2.5em;
+}
+.ol-zoomtoextent-custom button {
+  width: 1.5em;
+  height: 1.4em;
+  font-size: 1.6em;
+}
+.ol-switchcontrol-custom {
+  position: absolute;
+  top: 11em;
+  width: 2.5em;
+  height: 2.5em;
+}
+.ol-switchcontrol-custom button {
+  width: 1.5em;
+  height: 1.4em;
+  font-size: 1.6em;
+}
+.ol-graticulescontrol-custom {
+  position: absolute;
+  top: 14em;
+  width: 2.5em;
+  height: 2.5em;
+}
+.ol-graticulescontrol-custom button {
+  width: 1.5em;
+  height: 1.4em;
+  font-size: 1.6em;
+}
+.ol-geolocationcontrol-custom {
+  position: absolute;
+  top: 17em;
+  width: 2.5em;
+  height: 2.5em;
+}
+.ol-geolocationcontrol-custom button {
+  width: 1.5em;
+  height: 1.4em;
+  font-size: 1.6em;
+}
+.ol-measurecontrol-custom {
+  position: absolute;
+  top: 0.3em;
+  left: 3.5em;
+  width: 7.5em;
+}
+.ol-measurecontrol-custom button {
+  float: left;
+  width: 1.5em;
+  height: 1.4em;
+  font-size: 1.6em;
+}
+.toolTip {
+  font-size: 1.6em;
+  position: relative;
+  background: rgba(0, 60, 136, 0.7);
+  border-radius: 0.25em;
+  color: white;
+  padding: 0.25em 0.5em;
+  opacity: 0.7;
+  white-space: nowrap;
+}
+.measureTip:before {
+  border-top: 0.375em solid rgba(0, 60, 136, 0.7);
+  border-right: 0.375em solid transparent;
+  border-left: 0.375em solid transparent;
+  content: "";
+  position: absolute;
+  bottom: -0.375em;
+  margin-left: -0.4375em;
+  left: 50%;
+}
+.closer {
+  margin-left: 0.625em;
+}
+.closer:hover {
+  cursor: pointer;
+}

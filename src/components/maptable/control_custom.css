@@ -1,0 +1,196 @@
+.ol-zoom-custom {
+  position: absolute;
+  top: 0.7em;
+  left: 1.4em;
+  width: 2.5em;
+  height: 26.4em;
+}
+.ol-zoom-custom button {
+  width: 1.5em;
+  height: 1.5em;
+  font-size: 1.6em;
+}
+.ol-zoom-custom button:nth-child(2) {
+  position: absolute;
+  bottom: 0.2em;
+}
+#map .ol-zoomslider {
+  top: 3.7em;
+  left: 1.75em;
+  width: 1.9em;
+  background-color: transparent;
+}
+.ol-scaleLine-custom {
+  position: absolute;
+  top: 3.6em;
+  left: 1.7em;
+  width: 2em;
+  height: 15em;
+}
+.ol-mousePosition-custom {
+  bottom: 0.7em;
+  right: 0.7em;
+  position: absolute;
+  color: #eee;
+  text-align: center;
+  font-size: 1.1em;
+  will-change: contents, width;
+  background: #95b9e6;
+  background: rgba(0, 60, 136, 0.3);
+  border-radius: 0.25em;
+  padding: 0.25em;
+}
+.ol-overviewMap-custom-transition {
+  -webkit-transition: width 0.6s,height 0.6s;
+  -moz-transition: width 0.6s,height 0.6s;
+  -o-transition: width 0.6s,height 0.6s;
+  transition: width 0.6s,height 0.6s;
+}
+.ol-overviewMap-custom,
+.ol-overviewMap-custom.ol-uncollapsible {
+  bottom: auto;
+  left: auto;
+  right: 0;
+  top: 0;
+  opacity: 0.8;
+}
+.ol-overviewMap-custom button {
+  left: -0.8em!important;
+  width: 0.8em;
+  height: 3em;
+  font-size: 1.6em;
+}
+.ol-overviewMap-custom {
+  position: absolute;
+  border: none;
+  width: 28em;
+  height: 16em;
+  -webkit-transition: right 0.6s;
+  -moz-transition: right 0.6s;
+  -o-transition: right 0.6s;
+  transition: right 0.6s;
+}
+.ol-overviewmap .ol-overviewmap-map {
+  border: none;
+  width: 27.6em;
+  height: 15.6em;
+}
+.ol-overviewMap-custom .ol-overviewmap-box {
+  border: 0.125em solid red;
+}
+.ol-overviewMap-custom:not(.ol-collapsed) button {
+  bottom: auto;
+  left: auto;
+  right: 0.0625em;
+  top: 0.0625em;
+}
+.ol-zoomtoextent-custom {
+  position: absolute;
+  top: 28em;
+  left: 1.4em;
+  width: 2.5em;
+  height: 2.5em;
+}
+.ol-zoomtoextent-custom button {
+  width: 1.5em;
+  height: 1.4em;
+  font-size: 1.6em;
+}
+.ol-switchcontrol-custom {
+  position: absolute;
+  top: 31em;
+  left: 1.4em;
+  width: 2.5em;
+  height: 2.5em;
+}
+.ol-switchcontrol-custom button {
+  width: 1.5em;
+  height: 1.4em;
+  font-size: 1.6em;
+}
+.ol-graticulescontrol-custom {
+  position: absolute;
+  top: 34em;
+  left: 1.4em;
+  width: 2.5em;
+  height: 2.5em;
+}
+.ol-graticulescontrol-custom button {
+  width: 1.5em;
+  height: 1.4em;
+  font-size: 1.6em;
+}
+.ol-geolocationcontrol-custom {
+  position: absolute;
+  top: 37em;
+  left: 1.4em;
+  width: 2.5em;
+  height: 2.5em;
+}
+.ol-geolocationcontrol-custom button {
+  width: 1.5em;
+  height: 1.4em;
+  font-size: 1.6em;
+}
+.ol-fullscreen-custom {
+  position: absolute;
+  top: 40em;
+  left: 1.4em;
+  width: 2.5em;
+  height: 2.5em;
+}
+.ol-fullscreen-custom button {
+  width: 1.5em;
+  height: 1.4em;
+  font-size: 1.6em;
+}
+.ol-measurecontrol-custom {
+  position: absolute;
+  top: 0.7em;
+  left: 5em;
+  width: 7.8em;
+}
+.ol-measurecontrol-custom button {
+  float: left;
+  width: 1.5em;
+  height: 1.4em;
+  font-size: 1.6em;
+}
+.ol-searchcontrol-custom {
+  position: absolute;
+  top: 0.7em;
+  left: 13.5em;
+  width: 2.5em;
+  height: 2.5em;
+}
+.ol-searchcontrol-custom button {
+  width: 1.4em;
+  height: 1.4em;
+  font-size: 1.6em;
+}
+.toolTip {
+  font-size: 1.6em;
+  position: relative;
+  background: rgba(0, 60, 136, 0.7);
+  border-radius: 0.25em;
+  color: white;
+  padding: 0.25em 0.5em;
+  opacity: 0.7;
+  white-space: nowrap;
+}
+.measureTip:before {
+  border-top: 0.375em solid rgba(0, 60, 136, 0.7);
+  border-right: 0.375em solid transparent;
+  border-left: 0.375em solid transparent;
+  content: "";
+  position: absolute;
+  bottom: -0.375em;
+  margin-left: -0.4375em;
+  left: 50%;
+}
+.closer {
+  margin-left: 0.625em;
+}
+.closer:hover {
+  cursor: pointer;
+}

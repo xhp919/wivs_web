@@ -1,0 +1,54 @@
+{
+  "map": {
+    "vector": "google_vector",
+    "image": "google_image",
+    "mark": "google_mark",
+    "viewOpt": {
+      "center": [13433349.098950015, 3766816.753893486],
+      "zoom": 4,
+      "minZoom": 4,
+      "maxZoom": 22
+    },
+    "controlsOpt": {
+      "zoom": false,
+      "attribution": false,
+      "rotate": false
+    },
+    "interactionsOpt": {
+      "doubleClickZoom": false,
+      "pinchRotate": false
+    }
+  },
+  "rain": {
+    "api": "http://typhoon.zjwater.gov.cn/Api/LeastRain"
+  },
+  "cloud": {
+    "api": "https://tf.istrongcloud.com/sea-modules/config.json"
+  },
+  "radar": {
+    "api": "https://tf.istrongcloud.com/sea-modules/config.json"
+  },
+  "pressure": {
+    "api": "http://localhost:8456/server/getPressure"
+  },
+  "typhoon": {
+    "api": {
+      "current": "http://typhoon.zjwater.gov.cn/Api/TyhoonActivity",
+      "list": "http://typhoon.zjwater.gov.cn/Api/TyphoonList",
+      "info": "http://typhoon.zjwater.gov.cn/Api/TyphoonInfo"
+    }
+  },
+  "wind": {
+    "api": "http://localhost:8456/server/getWindData"
+  },
+  "city": {
+    "api": "http://localhost:8456/server/getCity"
+  },
+  "user": {
+    "socket": "ws://localhost:8456/server/user",
+    "api": {
+      "modify": "http://localhost:8456/server/account/modify",
+      "register": "http://localhost:8456/server/account/register"
+    }
+  }
+}
